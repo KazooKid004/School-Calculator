@@ -23,8 +23,8 @@ print("Select operation.\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Exponent\n"
 # Take response from the user
 choice = input("Enter choice(1/2/3/4):")
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
