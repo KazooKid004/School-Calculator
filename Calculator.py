@@ -1,3 +1,4 @@
+
 #script written by KazooKid004
 # This function adds the two numbers
 
@@ -21,10 +22,10 @@ def divide(x, y):
 def exponent(x, y):
     return x ** y
 #
-print("Select operation.\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Exponent\n")
+print("Select operation.\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Exponent\n6.Squareroot")
 
 # Take response from the user
-choice = input("Enter choice(1/2/3/4):")
+choice = input("Enter choice(1/2/3/4/5/6):")
 
 if choice != "6":
    num1 = float(input("Enter first number: "))
