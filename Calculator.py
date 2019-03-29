@@ -1,7 +1,7 @@
-
 #script written by KazooKid004
+#Help from @Freddy0001, @Matt-Gleich, and @Cal-Hagner 
+#------------------------------------
 import math
-
 
 # This function adds the two numbers
 def add(x, y):
